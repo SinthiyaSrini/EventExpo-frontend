@@ -40,11 +40,6 @@ Open a terminal in the project folder and run:
 npm install
 npm run dev
 
-
-Open the Application:
-
-Navigate to http://localhost:3000 in your browser.
-
 Explore the Website:
 
 Browse the services, view details, and test the multi-step booking flow.
