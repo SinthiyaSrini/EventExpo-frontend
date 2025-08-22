@@ -1,29 +1,56 @@
-EventExpo Frontend Assignment
+EventExpo-Frontend-A-Responsive-Event-Booking-Interface
 
-EventExpo is a responsive React.js web application for browsing and booking event services such as DJs, Photographers, and Caterers. This project demonstrates modern frontend development practices including state management, responsive design, multi-step booking flow, and interactive UI.
+EventExpo is a responsive React.js project showcasing a modern event services platform. Designed for seamless browsing and booking, it allows users to explore DJs, Photographers, and Caterers with an interactive interface. This project focuses on the frontend using React.js, Tailwind CSS, and Context API.
 
 Features
 
-Service Listing: Browse services with search and filters including category, price, rating, and location.
+Responsive Design: Optimized for all screen sizes and devices.
+Service Listing: Browse available event services with search and filters for category, price, rating, and location.
+Service Details: View detailed information, including reviews, availability, and image gallery in a modal.
+Multi-Step Booking Form: Book services with date selection, guest count, requirements, and contact information.
+Dark Mode Toggle: Switch between light and dark themes for better accessibility.
+Animations: Smooth transitions and interactive UI using Framer Motion.
+Loading States: Mock API data with proper loading feedback for better user experience.
 
-Service Details: View reviews, availability, and image gallery in a modal.
+Technologies Used
 
-Multi-Step Booking: Complete booking with date selection, guest information, requirements, and contact details.
+React.js: For building the frontend structure and interactive components.
+Tailwind CSS: For styling and responsive design.
+Framer Motion: For animations and transitions.
+JavaScript (ES6+): For functionality and logic.
 
-Dark Mode Toggle: Switch between light and dark themes.
+How to Run
 
-Responsive Design: Mobile-first layout that works across devices.
+Download the Project:
 
-State Management: Uses Context API for global state handling.
+Click the green "Code" button on this repository.
+Select "Download ZIP" and extract the files to your computer.
 
-Animations: Smooth transitions using Framer Motion.
+Ensure All Files Are in the Same Folder:
 
-Loading States: Mock API data with loading feedback.
+Confirm that the following files and folders are together in the same directory:
+src/ folder (contains App.jsx, components, context, and styles)
+package.json
+public/ folder
 
-Technologies
+Install Dependencies and Start the App:
 
-React.js (Hooks and Context API)
-Tailwind CSS
-Framer Motion
-JavaScript (ES6+)
+Open a terminal in the project folder and run:
 
+npm install
+npm run dev
+
+
+Open the Application:
+
+Navigate to http://localhost:3000 in your browser.
+
+Explore the Website:
+
+Browse the services, view details, and test the multi-step booking flow.
+Toggle between dark and light mode.
+
+Customize the Content:
+
+Edit the components in the src/ folder to add new services or adjust content.
+Modify styles in styles/ folder for custom themes.
